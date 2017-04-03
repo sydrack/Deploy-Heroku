@@ -10,5 +10,6 @@ $consulta = pg_query($db, "SELECT * FROM usuario");
            echo "Senha: " .$row['senha']. "<br>";
          echo "-----------------------<br>";
         }
+echo "teste";
 
 ?>
