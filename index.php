@@ -7,8 +7,9 @@ $db = pg_connect (DATABASE);
 $consulta = pg_query($db, "SELECT * FROM usuario");
         
         while ($row = pg_fetch_assoc($consulta)) {   
-          echo "Login: " $row['login'] "<br>";
-           echo "Senha: " $row['senha'] "<br>";
+          echo "Login: " .$row['login']. "<br>";
+           echo "Senha: " .$row['senha']. "<br>";
+         echo "-----------------------<br>"
         }
 
 ?>
